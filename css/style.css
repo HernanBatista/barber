@@ -1,0 +1,275 @@
+/* telainicial  css */
+.csborder{
+    border-bottom: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #ff0e0e, #1a02ff);
+}
+
+/* telainicial  css fim */
+
+/**/
+
+/* login  css */
+.csfundo{
+    background: linear-gradient( 
+70deg , #131628, #151924);
+    height: 1000px;
+    overflow: hidden;
+}
+
+.csloginbox{
+    background: #fff;
+    height: 540px;
+    border-radius: 10px;
+}
+
+.csmenu{
+    height: 300px;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.csmtop50{
+    margin-top: 50px;
+}
+
+.csimgbox{
+    background: url(../imagens/barberback.jpg);
+    height: 90%;
+    margin: 23px 0;
+    background-size: cover;
+}
+
+.cslogo{
+    width: 135px;
+    margin: 0 auto;
+}
+
+.cslogo2{
+    width: 150px;
+    margin: 10px auto;
+    z-index: 21;
+}
+
+.csrow{
+    width: 70%;
+    margin: 20px auto 0;
+}
+
+.csrow2{
+    width: 70%;
+    margin: 5px auto 0;
+}
+
+.csrow3{
+    width: 100%;
+    margin: 5px auto 0;
+    float: left;
+    z-index: 9999;
+}
+
+.csrow4{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.csleft{
+    margin-left: 10px;
+}
+
+.csbtt{
+    background-image: linear-gradient(45deg, #3f3caa, #b6173f);
+    border: 0;
+    padding: 9px 35px;
+    transition: all 0.5s;
+}
+.csbtt:hover{
+    transition: all 2s;
+}
+
+.csbtt span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.csbtt span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.csbtt:hover span {
+    padding-right: 25px;
+  }
+  
+  .csbtt:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.cscnt{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.csconta{
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin-left: 10px;
+}
+
+.bgblack{
+    background: #000;
+}
+
+#bgimg{
+    background-image: linear-gradient( 
+        270deg
+         , black, #00000099);
+    background: url(https://images.unsplash.com/photo-1592647420148-bfcc177e2117?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFyYmVyc2hvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80) no-repeat;
+    background-color: #545454;
+    background-position: center;
+    background-position-y: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 500px;
+    background-blend-mode: hard-light;
+    opacity: 0.4;
+}
+
+.csround{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 5px auto;
+    border: 2px #ffffff;
+    border-style: solid;
+    background-size: contain;
+    background-position: center;
+    background-image: linear-gradient( 
+223deg
+ , #050027, #b12629);
+}
+
+.csedy{
+    background: url(../imagens/edy.png) no-repeat;
+    background-size: cover;
+}
+
+.csyuri{
+    background: url(../imagens/yuri.png) no-repeat;
+    background-size: cover;
+}
+
+.csicon{
+    padding: 28px;
+}
+
+.csicon2{
+    margin: 13px 10px;
+    float: left;
+}
+
+.cspag{
+    text-align: center;
+    color: #ffffff;
+    font-variant: all-petite-caps;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: 300;
+}
+
+.cspag2{
+    color: #000;
+}
+
+.cspf{
+    z-index: 999;
+    margin: 20px auto;
+}
+
+.cspf2{
+    background: #fff;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 30px 30px 10px;
+    margin: -20px auto 20px;
+}
+
+.cspfpm{
+    padding-top: 70px;
+    margin: -72px auto 20px;
+}
+
+.csavatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: url(../imagens/user.png) #e8e8e8;
+    float: left;
+    border-bottom: 2px solid #dcdcdc;
+    background-size: cover;
+}
+
+.csnp{
+    float: left;
+    color: #fff;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Arial;
+    margin-top: 10px;
+}
+
+.cshora{
+    width: 84%;
+    margin: 0 auto;
+}
+
+.cshoraid{
+    padding: 8px;
+    margin: 5px 5px;
+    background: #647584;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    font-family: Verdana;
+    width: 65px;
+    cursor: pointer;
+}
+
+.cshoraid:active{border:2px solid #000;}
+.cshoraid:hover{background: #223444;}
+
+/* agendar */
+.outl{
+	outline:2px solid #6cff00;
+}
+
+/* CALENDAR CSS CUSTOM */
+
+.vanilla-calendar .vanilla-calendar-week {
+    background-image: linear-gradient(
+45deg
+, #1b02ff, #ff0e0f);
+}
+
+.vanilla-calendar .vanilla-calendar-date--selected {
+    background-color: #ff4545;
+}
+
+/* CALENDAR CSS CUSTOM - END */
+
+@media (min-width: 990px) { 
+	.csicon2{display:none;}
+}
+@media (max-width: 767.98px) { 
+    .csimgbox {display: none;}
+    .csloginbox {width: 100%;}
+    .csrow4 {width: 100%;}
+ }
+ 
